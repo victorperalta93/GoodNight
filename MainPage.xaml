@@ -9,8 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="1024" Height="600">
 
     <Grid Margin="0,10,0,0">
-        <Button Content="Aplicar" Margin="0,0,277,225" VerticalAlignment="Bottom" Height="41" Width="102" HorizontalAlignment="Right"/>
-        <TimePicker Margin="0,0,207,295" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="32" Width="242"/>
+        <Button x:Name="botonAplicar" Content="Aplicar" Margin="0,0,277,225" VerticalAlignment="Bottom" Height="41" Width="102" HorizontalAlignment="Right" Click="BotonAplicar_Click"/>
+        <TimePicker x:Name="tiempoSel" Margin="0,0,207,295" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="32" Width="242"/>
         <Image Source="Assets/bunny.png" x:Name="bunny" Margin="-38,91,504,91"/>
         <TextBlock HorizontalAlignment="Left" Height="106" Margin="325,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="388" FontSize="72"><Run Text="Good Night"/><LineBreak/><Run/></TextBlock>
     </Grid>

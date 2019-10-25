@@ -17,5 +17,7 @@ namespace GoodNight
 	public:
 		MainPage();
 
+	private:
+		void BotonAplicar_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
